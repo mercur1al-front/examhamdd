@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.containeer {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0%;
+    background-image: url(images/logobg_03.png);
+    background-repeat: repeat-x;
+}
+.containeer .header {
+    width: 960px;
+    margin: 0px auto;
+    padding: 0%;
+    min-height: 125px;
+}
+.containeer .header .logo {
+    float: left;
+    width: 20%;
+}
+.containeer .header .logo .logoimage{
+    width: 100px;
+    margin: 40px auto 0px 10%;
+}
+.containeer .header .mainmenu {
+    float: right;
+    width: 80%;
+}
+.containeer .header .mainmenu {
+    background-image: url(images/hamburger-menu-3-660x370-1280x720_03.png);
+}
+.containeer .header .mainmenu ul{
+	list-style: none;
+    float: right;
+    width: 100%;
+    margin-top: 55px;
+}
+.containeer .header .mainmenu ul li{
+    float: right;
+    text-align: center;
+    margin-right: 5%;
+}
+.containeer .header .mainmenu ul li a{
+    font-size: 110%;
+    display: inline-block;
+	padding: 7px 15px;
+	color:#8b6565;
+    text-decoration: none;
+    padding: 7px 15px;
+    border: 1px solid #ffffff00;
+    
+}
+.containeer .header .mainmenu ul li a:hover{
+    color:#b57c7c;
+    text-decoration: none;
+	background: #8b656500;
+	box-shadow: 0px 2px 2px #8b6565;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, white,#8b65654f) 100% 1 0;
+}
+.containeer .header .mainmenu ul li:first-child{
+    margin-right: 2%;
+}
+@media all and (min-width:320px) and (max-width:959px){
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.containeer {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0%;
+    background-image: url(images/logobg_03.png);
+}
+.containeer .header {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0%;
+    min-height: 125px;
+}
+.containeer .header .mainmenu {
+    width: 80%;
+}
+.containeer .header .mainmenu ul{
+	list-style: none;
+    width: 100%;
+    margin-top: 55px;
+}
+.containeer .header .mainmenu ul li a{
+    font-size: 110%;
+	padding: 7px 15px;
+	color:#8b6565;
+    text-decoration: none;
+    padding: 7px 15px;
+    border: 1px solid #ffffff00;
+    
+}
+.containeer .header .mainmenu ul li a:hover{
+    color:#b57c7c;
+    text-decoration: none;
+	background: #8b656500;
+	box-shadow: 0px 2px 2px #8b6565;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, white,#8b65654f) 100% 1 0;
+}
+}
